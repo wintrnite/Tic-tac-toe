@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "tic-tac-toe"
+version = "0.1.0"
+description = "Console game tic-tac-toe"
+authors = ["Vasily Kovalev <poiut_2001@mail.ru>"]
+
+[tool.poetry.dependencies]
+python = "^3.6"
+typer = "^0.4.0"
+tabulate = "^0.8.9"
+termcolor = "^1.1.0"
+click = "^8.0.4"
+colorama = "^0.4.4"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
